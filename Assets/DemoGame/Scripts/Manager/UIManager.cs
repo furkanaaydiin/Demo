@@ -10,7 +10,7 @@ namespace DemoGame.Scripts.Manager
     {
         [Header("GamePanels")] [SerializeField]
         private GameObject startGamePanel;
-
+        [SerializeField]public GameObject scorePanel;
         [SerializeField] public GameObject resumePanel;
 
         [Header("GameButton")] [SerializeField]
@@ -28,7 +28,9 @@ namespace DemoGame.Scripts.Manager
             startButton.onClick.AddListener(StartGame);
        
         }
+
         private void StopTheGame() => Time.timeScale = Time.timeScale == 0 ? 1 : 0;
+       
         private void ResumeButton()
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);

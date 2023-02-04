@@ -41,6 +41,7 @@ namespace DemoGame.Scripts.Manager
         private void GameOver()
         {
             uiManager.resumePanel.SetActive(true);
+            uiManager.scorePanel.SetActive(false);
             Time.timeScale = 0;
         }
         

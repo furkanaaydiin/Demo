@@ -1,6 +1,6 @@
 # Demo
 
-**2 günde bitirilmiştir**
+**2.5 günde bitirilmiştir**
 
 https://user-images.githubusercontent.com/108819092/216793853-345e3804-90bd-4bb7-8f5a-f40b8611b2b4.mp4
 
